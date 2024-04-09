@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(172, 72, 130);
+}
+
+p {
+    color:rgb(66, 141, 192);
+}
+
+a {
+   color: rgb(217, 215, 250);
+}
+
+.destaque{
+    color: blueviolet;
+    background-color: rgb(198, 170, 224);
+}
+
+h1{
+    color:rgb(66, 2, 39)
+}

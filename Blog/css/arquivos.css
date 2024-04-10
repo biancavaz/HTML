@@ -86,11 +86,6 @@ p {
     display: flex;
     flex-direction: row;
 }
-.foto-at1{
-    align-items: center;
-    padding-top: 50px;
-    padding-left: 50px;
-}
 .artigo1{
     padding-left: 200px;
     text-decoration: none;
@@ -98,9 +93,23 @@ p {
     
 }
 .artigo2{
-    padding-left: 700px;
+    padding-left: 500px;
     text-decoration: none;
     color: #8953be;
+}
+
+.container7{
+    display: flex;
+    flex-direction: row;
+} 
+.foto-at1{
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.foto-at2{
+    margin-top: 50px;
+    margin-left: 150px;
 }
 
 
@@ -110,12 +119,27 @@ p {
     flex-direction: row;
 }
 .artigo3{
-    padding-left: 200px;
+    padding-left: 150px;
+    padding-bottom: 50px;
     text-decoration: none;
     color: #8953be;
 }
 .artigo4{
-    padding-left: 700px;
+    padding-left: 350px;
     text-decoration: none;
     color: #8953be;
+}
+
+.container8{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-at3{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.foto-at4{
+    margin-top: 79px;
+    margin-left: 150px;
 }

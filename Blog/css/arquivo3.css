@@ -3,6 +3,12 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 150px;
     padding-top: 15px;
+   
+}
+
+p{
+    text-align: justify;
+    padding-right: 15px;
 }
 
 .container9{
@@ -11,11 +17,12 @@ h2{
 }
 
 .img1{
-    margin-top: 40px;
-    margin-right: 15px;
+    margin-top: 60px;
+    margin-right: 35px;
+    
 }
 
 .img2{
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 750px;
 }

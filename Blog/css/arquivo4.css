@@ -2,7 +2,7 @@ h2{
     color: #72469e;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 120px;
-    padding-top: 15px;
+    padding-top: 20px;
    
 }
 
@@ -10,28 +10,49 @@ p{
     text-align: justify;
     padding-right: 18px;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: 18px;
 }
 
-.container9{
+.container15{
     display: flex;
     flex-direction: row;
 }
 
-.img1{
-    margin-top: 50px;
-    margin-right: 35px;
-    
+.Imagem1{
+    margin-bottom: 15px;
 }
 
-.img2{
-    margin-top: -200px;
-    margin-left: 760px;
+a1{
+    color: #72469e;
+}
+
+a2{
+    color: #72469e;   
+}
+
+a3{
+    color: #72469e;
+}
+
+a4{
+    color: #72469e;
+}
+
+a5{
+    color: #72469e;
+}
+
+a6{
+    color: #72469e;
+}
+
+a7{
+    color: #72469e;
 }
 
 .ref{
-    margin-left: 30px;
+    margin-left: 30PX;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #72469e;

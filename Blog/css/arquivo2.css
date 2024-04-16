@@ -1,0 +1,89 @@
+
+h2{
+    color: #72469e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 120px;
+    padding-top: 20px;
+   
+}
+
+p{
+    text-align: justify;
+    padding-right: 18px;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.container10{
+    display: flex;
+    flex-direction: row;
+}
+.bruma{
+    padding-top: 15px;
+}
+.textoBruma{
+    margin-left: -100px;
+}
+
+.container11{
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloFlu{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.ImagemFluido{
+    padding-top: 15px;
+}
+
+.container12{
+    display: flex;
+    flex-direction: row;
+}
+.ImagemProtetor{
+    margin-top: 15px;
+}
+.textoProtetor{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.container13{
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloserum{
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+.fotoSerum{
+    padding-top: 15px;
+}
+
+.container14{
+    display: flex;
+    flex-direction: row;
+}
+
+.ImagemGloss{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tituloGloss{
+    margin-top: 100px;
+    margin-left: -110px;
+}
+
+.ref{
+    padding-left: 50px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #72469e;
+}

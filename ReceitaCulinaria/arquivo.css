@@ -1,0 +1,131 @@
+.NomeSite{
+    background-color: rgb(241, 214, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 550px;
+    font-size: 40px;
+
+}
+.container10{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem10{
+    position: absolute;
+    top: 15%; 
+    left: 7%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.imagem1{
+    padding-top: 68px;
+    padding-left: 20px;
+}
+
+.ingredientes{
+    
+    margin-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(241, 214, 173);
+    border-radius: 30px;
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    margin-left: 180px;
+    padding: 20px;
+}
+
+.passoapasso{
+    padding-left: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.passoapasso2{
+    padding-left: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+
+.leitecondensado{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.conateiner3{
+    display: flex;
+    flex-direction: row;
+}
+.manteiga{
+    padding-top: 20px;
+    margin-left: -30px;
+}
+.manteigatexto{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.modopreparo{
+    margin-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(241, 214, 173);
+    border-radius: 30px;
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    margin-left: 180px;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.textochocolate{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.granulado{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.brigadeiro2{
+    text-align: center;
+}

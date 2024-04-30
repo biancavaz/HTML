@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.grid-item{
+    color: rgb(0, 0, 255);
+    background-color: rgb(219, 238, 255);
+    align-content: center;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,20vh);
+    gap: 10px;
+
+}
+
+.duplo{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}

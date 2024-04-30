@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 4fr 4fr 3fr;
+    grid-template-rows: 3fr 4fr 4fr;
+    height: 100vh;
+    font-family: "inter", sans-serif;
+    grid-template-areas: "heading1 heading2 heading3 heading4"
+                         "heading5 heading6 heading6 heading7 "
+                         "heading5 heading8 heading9 heading7 ";
+    color: rgb(255, 255, 255);
+}
+
+.heading1{
+    grid-area: heading1 ;
+    background-color: rgb(0, 0, 0);
+    grid-column: 1/2;
+
+}
+
+.heading2{
+    grid-area: heading2 ;
+    background-color: rgb(230, 47, 47);
+    grid-column: 2/3;
+}
+
+.heading3{
+    grid-area: heading3 ;
+    background-color: rgb(255, 255, 255);
+    grid-column: 3/4;
+}
+
+.heading4{
+    grid-area: heading4 ;
+    background-color: rgb(51, 63, 233);
+    grid-column: 4/4;
+}
+
+
+.heading5{
+    grid-area: heading5 ;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 2/4;
+    font-size: 25px;
+    padding-top: 200px;
+    padding-left: 70px;
+}
+
+
+.heading6{
+    grid-area: heading6 ;
+    background-color:rgb(230, 47, 47);
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+
+.heading7{
+    grid-area: heading7 ;
+    background-color: rgb(0, 0, 0);
+    grid-column: 4/4;
+    grid-row: 2/4;
+    font-size: 25px;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+
+
+.heading8{
+    grid-area: heading8 ;
+    background-color:  rgb(0, 0, 0);
+    grid-column: 2/3;
+}
+
+
+.heading9{
+    grid-area: heading9 ;
+    background-color: rgb(234, 247, 60);
+    grid-column: 3/4;
+} 
+
+p {
+    padding-top: 10px;
+    padding-right: 80px;
+    font-size: 10px;
+    text-align: justify;
+    line-height: 2.0;
+}

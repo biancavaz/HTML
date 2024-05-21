@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .item {
+    flex: 1 1 300px;
+  }
+
+  .item-1{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 20px;
+  }
+
+  .item-2 { 
+    background-color:blue;
+    color: aliceblue;
+    padding: 20px;
+  }
+
+  .item-3{
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+  }
+  
+  /* Aplica estilos para telas com largura máxima de 500px */
+@media (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Aplica estilos para telas com largura mínima de 600px */
+  @media (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  /* Aplica estilos para telas entre 800px e 900px de largura */
+  @media (min-width: 800px) and (max-width: 900px) {
+    body {
+      background-color: lightcoral;
+    }
+  }

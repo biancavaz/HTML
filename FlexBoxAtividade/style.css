@@ -37,6 +37,42 @@ body, html {
         padding-left: 50px;
     }
 
+    .paginasAdicionais{
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 30px;
+        transition: background-color 0.3s ease; /* Suave transição da cor */
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .sbrenos:hover {
+        background-color: #ba90e0; 
+    }
+    
+    .cntt:hover {
+        background-color: #ba90e0; 
+    }
+    
+    .sbrenos{
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 10px;
+        background-color: rgb(93, 36, 146);
+    }
+    
+    .cntt{
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 20px;
+        background-color: rgb(93, 36, 146);
+    }
 }
 
 .container {
@@ -61,8 +97,6 @@ body, html {
     color: white;
     padding: 30px;
 }
-
-
 
 .containerArtigo1 {
     padding-top: 20px;
@@ -107,8 +141,7 @@ body, html {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
- a{
+a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -137,11 +170,6 @@ body, html {
 .sidebar .box {
     flex: 1 1 55%;  
 }
-
-.paginasAdicionais{
-    display: flex;
-}
-
 
 
 @media (min-width: 576px) {

@@ -1,0 +1,160 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(220, 205, 235);
+}
+
+h2{
+    color: #f8f6fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    background-color: #72469e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+
+}
+
+.box  {
+    padding: 10px;
+    text-align: center;
+}
+
+.blue {
+    color: rgb(0, 0, 0);
+}
+
+.textoartgo1{
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.top{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main-content .box {
+    flex: 1 1 55%;    
+}
+
+.sidebar .box {
+    flex: 1 1 55%;  
+}
+
+.main-content, .sidebar {
+    flex: 1 1 100%;
+    flex-direction: column;
+}
+
+
+@media (min-width: 576px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .main-content .box {
+        flex: 1 1 35%;    
+    }
+
+    .sidebar .box {
+        flex: 1 1 35%
+    }
+    .sidebar, .main-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container {        
+        flex-direction: row;
+    }
+    
+    .sidebar {
+        flex: 1;
+    } 
+
+    .sidebar .box {
+        flex: 1 1 55%;  
+    }
+
+    .main-content {
+        flex: 3;
+    } 
+}
+
+header{
+    display: flex;
+    justify-content:center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(61, 36, 119);
+}
+
+
+.imagemHeader1{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.imagemHeader2{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.textoartigo {
+    padding-top: 8px;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagensArtigos img {    
+    width: 400px;
+    height: 300px;
+    object-fit: cover; /* Opcional, mantém o aspecto proporcional */
+    border-radius: 15px;
+    margin: 10px;;
+}
+
+.ref{
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(107, 60, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease; /* Suave transição da cor */
+    color: #f8f6fa;
+}
+
+.ref:hover {
+   background-color: rgb(165, 131, 199);
+}

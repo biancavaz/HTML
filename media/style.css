@@ -2,6 +2,34 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(220, 205, 235);
+}
+
+header{
+    display: flex;
+    justify-content:center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: rgb(61, 36, 119);
+}
+
+.imagemHeader1{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.imagemHeader2{
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .container {
@@ -16,6 +44,53 @@ body, html {
     gap: 20px;
 }
 
+.box  {
+    padding: 20px;
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(61, 36, 119);
+    color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.imagensArtigos img {    
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Opcional, mantém o aspecto proporcional */
+    border-radius: 10px;
+}
+
+.LMartigos{
+    font-family:sans-serif;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 120px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(156, 110, 196);
+    transition: background-color 0.3s ease; /* Suave transição da cor */
+}
+
+.LMartigos:hover {
+   background-color: rgb(194, 164, 224);
+}
+
+.artigos {
+    padding-top: 8px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .sidebar {
     display: flex;
     gap: 20px;
@@ -26,11 +101,6 @@ body, html {
     flex-direction: column;
 } 
 
-.box  {
-    padding: 20px;
-    text-align: center;
-}
-
 .main-content .box {
     flex: 1 1 55%;    
 }
@@ -39,21 +109,54 @@ body, html {
     flex: 1 1 55%;  
 }
 
-.blue {
-    background-color: blue;
+.red {
+    margin-top: 20px;
+    background-color:rgb(187, 159, 233);
     color: white;
     padding: 30px;
 }
 
-.red {
-    background-color: red;
-    color: white;
-    padding: 30px;
+.paginasAdicionais{
+    justify-content: center;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease; /* Suave transição da cor */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.sbrenos:hover {
+    background-color: #9a61cc; 
+}
+
+.cntt:hover {
+    background-color: #9a61cc; 
+}
+
+.sbrenos{
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 10px;
+    background-color: rgb(93, 36, 146);
+}
+
+.cntt{
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 20px;
+    background-color: rgb(93, 36, 146);
+}
+
 
 @media (min-width: 576px) {
     .container {
         flex-wrap: wrap;
+        background-color: rgb(211, 177, 226);
     }
 
     .main-content .box {
@@ -73,6 +176,7 @@ body, html {
 
     .container {        
         flex-direction: row;
+        background-color: blue;
     }
     
     .sidebar {
@@ -86,7 +190,139 @@ body, html {
     .main-content {
         flex: 3;
     } 
+
+    header{
+        display: flex;
+        justify-content:center;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1{
+        font-size: 40px;
+        padding-top: 20px;
+        padding-left: 30px;
+        color: rgb(61, 36, 119);
+    }
+    
+    .imagemHeader1{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    
+    .imagemHeader2{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .box  {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .blue {
+        background-color: rgb(61, 36, 119);
+        color: white;
+        padding: 30px;
+        border-radius: 25px;
+    }
+    
+    .imagensArtigos img {    
+        width: 200px;
+        height: 200px;
+        object-fit: cover; /* Opcional, mantém o aspecto proporcional */
+        border-radius: 10px;
+    }
+    
+    .LMartigos{
+        font-family:sans-serif;
+        border-radius: 5px;
+        padding: 15px;
+        max-width: 120px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        background-color: rgb(156, 110, 196);
+        transition: background-color 0.3s ease; /* Suave transição da cor */
+    }
+    
+    .LMartigos:hover {
+       background-color: rgb(194, 164, 224);
+    }
+    
+    .artigos {
+        padding-top: 8px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .sidebar {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .red {
+        margin-top: 20px;
+        background-color:rgb(187, 159, 233);
+        color: white;
+        padding: 30px;
+    }
+    
+    .paginasAdicionais{
+        justify-content: center;
+        margin-top: 80px;
+        display: flex;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        transition: background-color 0.3s ease; /* Suave transição da cor */
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .sbrenos:hover {
+        background-color: #9a61cc; 
+    }
+    
+    .cntt:hover {
+        background-color: #9a61cc; 
+    }
+    
+    .sbrenos{
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 10px;
+        background-color: rgb(93, 36, 146);
+    }
+    
+    .cntt{
+        border-radius: 10px;
+        padding: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 20px;
+        background-color: rgb(93, 36, 146);
+    }
 }
-
-
 

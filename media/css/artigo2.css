@@ -82,7 +82,6 @@ h2{
 
 .box  {
     text-align: center;
-    font-size: 20px;
 }
 
 .main-content .box {
@@ -116,6 +115,11 @@ h2{
     width: 100%;
 }
 
+a{
+
+    color: #72469e;
+}
+
 @media (min-width: 576px) {
     .container {
         flex-wrap: wrap;
@@ -131,6 +135,9 @@ h2{
     .sidebar, .main-content {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .voltar{
+        margin-top: 100px;
     }
 }
 
@@ -156,16 +163,13 @@ h2{
         flex: 3;
     } 
 
-    .ref{
-        border-radius: 5px;
-        padding: 20px;
-        max-width: 120px;
-        text-align: center;
-        text-decoration: none;
-        background-color: rgb(107, 60, 148);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        transition: background-color 0.3s ease; /* Suave transição da cor */
-        color: #f8f6fa;
+    .blue {
+        padding: 0 20px;
+        background-color: rgb(220, 205, 235);
+        color: rgb(15, 15, 15);
+        text-align: justify;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 24px;
     }
-
+    
 }

@@ -5,15 +5,16 @@ body, html {
     background-color: rgb(220, 205, 235);
 }
 
-header{
+.logo {
     display: flex;
-    justify-content:center;
 }
 
 .container2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
 }
 h1{
     font-size: 40px;
@@ -113,15 +114,16 @@ a{
     margin-top: 20px;
     background-color:rgb(187, 159, 233);
     color: white;
-    padding: 30px;
+    border-radius: 30px;
 }
 
 .paginasAdicionais{
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 80px;
     display: flex;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
     transition: background-color 0.3s ease; /* Suave transição da cor */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -136,18 +138,18 @@ a{
 
 .sbrenos{
     border-radius: 10px;
-    padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
     margin: 10px;
     background-color: rgb(93, 36, 146);
 }
 
 .cntt{
     border-radius: 10px;
-    padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
     margin: 20px;
     background-color: rgb(93, 36, 146);
 }
@@ -156,7 +158,7 @@ a{
 @media (min-width: 576px) {
     .container {
         flex-wrap: wrap;
-        background-color: rgb(211, 177, 226);
+        background-color: rgb(220, 205, 235);
     }
 
     .main-content .box {
@@ -170,13 +172,40 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .sbrenos{
+        border-radius: 10px;
+        padding: 30px;
+        padding-right: 80px;
+        padding-left: 80px;
+        margin: 10px;
+        background-color: rgb(93, 36, 146);
+    }
+
+    .red {
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color:rgb(187, 159, 233);
+        color: white;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .blue {
+        background-color: rgb(61, 36, 119);
+        color: white;
+        padding: 30px;
+        border-radius: 25px;
+    }
+
 }
 
 @media (min-width: 992px) {
 
     .container {        
         flex-direction: row;
-        background-color: blue;
+        background-color:  rgb(220, 205, 235);
     }
     
     .sidebar {
@@ -191,138 +220,40 @@ a{
         flex: 3;
     } 
 
-    header{
-        display: flex;
-        justify-content:center;
-    }
-    
-    .container2{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    h1{
-        font-size: 40px;
-        padding-top: 20px;
-        padding-left: 30px;
-        color: rgb(61, 36, 119);
-    }
-    
-    .imagemHeader1{
-        padding-top: 40px;
-        padding-left: 20px;
-    }
-    
-    .imagemHeader2{
-        padding-top: 50px;
-        padding-left: 50px;
-    }
-    
-    .container {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-    }
-    
-    .main-content {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    
-    .box  {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .blue {
-        background-color: rgb(61, 36, 119);
-        color: white;
-        padding: 30px;
-        border-radius: 25px;
-    }
-    
-    .imagensArtigos img {    
-        width: 200px;
-        height: 200px;
-        object-fit: cover; /* Opcional, mantém o aspecto proporcional */
-        border-radius: 10px;
-    }
-    
-    .LMartigos{
-        font-family:sans-serif;
-        border-radius: 5px;
-        padding: 15px;
-        max-width: 120px;
-        text-align: center;
-        margin: auto;
-        margin-top: 30px;
-        background-color: rgb(156, 110, 196);
-        transition: background-color 0.3s ease; /* Suave transição da cor */
-    }
-    
-    .LMartigos:hover {
-       background-color: rgb(194, 164, 224);
-    }
-    
-    .artigos {
-        padding-top: 8px;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
-    
-    .sidebar {
-        display: flex;
-        gap: 20px;
-    }
-    
-    .red {
-        margin-top: 20px;
-        background-color:rgb(187, 159, 233);
-        color: white;
-        padding: 30px;
-    }
-    
-    .paginasAdicionais{
-        justify-content: center;
-        margin-top: 80px;
-        display: flex;
-        border-radius: 5px;
-        margin-bottom: 30px;
-        transition: background-color 0.3s ease; /* Suave transição da cor */
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    .sbrenos:hover {
-        background-color: #9a61cc; 
-    }
-    
-    .cntt:hover {
-        background-color: #9a61cc; 
-    }
-    
     .sbrenos{
         border-radius: 10px;
-        padding: 20px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding: 30px;
+        padding-right: 150px;
+        padding-left: 150px;
         margin: 10px;
         background-color: rgb(93, 36, 146);
     }
     
     .cntt{
         border-radius: 10px;
-        padding: 20px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding: 30px;
+        padding-right: 150px;
+        padding-left: 150px;
         margin: 20px;
         background-color: rgb(93, 36, 146);
     }
+
+    .red {
+        margin-left: 10px;
+        margin-top: 0px;
+        background-color:rgb(187, 159, 233);
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .blue {
+        margin-bottom: 50px;
+        background-color: rgb(61, 36, 119);
+        color: white;
+        padding: 30px;
+        border-radius: 25px;
+    }
+
 }
 

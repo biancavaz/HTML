@@ -24,31 +24,32 @@
 }
 
 .textoInicial {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 900;
     text-align: center;
     padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-family: "space grotesk";
 }
 
 .introducao{
     text-align: center;
     padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: "space grotesk";
+    font-size: 15px;
     line-height: 1.5;
-}
-
-.paddingCelular{
-    position: relative;
-    align-items: center;
-    margin: 100px 10px;
-    padding: 100px;
-    border-radius: 20px;
-    background-color: black;
 }
 
 .container3 {
     margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -58,4 +59,43 @@
 .container3 img {
     margin-top: -50px;
     padding-bottom: -20px;
+}
+
+.textoSecundario{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "space grotesk";
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.sessão3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto3{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "space grotesk";
+}
+
+.imagem3 {
+    margin-top: 40px;
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+    border-radius: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
 }

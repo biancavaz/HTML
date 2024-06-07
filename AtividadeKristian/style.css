@@ -48,14 +48,14 @@
 }
 
 .container3 {
-    margin-top: -350px;
+    margin-top: 100px;
     display: flex;
-    text-align: center;
-    flex-direction: row;
-    position: absolute;
-    padding-top: -20px;
+    justify-content: center;
+    background-color: black;
+
 }
- 
-img{
-    text-align: center;
+
+.container3 img {
+    margin-top: -50px;
+    padding-bottom: -20px;
 }

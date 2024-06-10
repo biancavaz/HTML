@@ -88,15 +88,53 @@
     font-weight: 500;
     text-align: center;
     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: "space grotesk";
 }
 
 .imagem3 {
     margin-top: 40px;
-    background-color: rgb(238, 238, 238);
-    padding: 50px;
-    border-radius: 4%;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 35px;
 }
 
+.container4 { 
+    background-color: rgb(238, 238, 238);  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border-radius: 4%;
+    margin-bottom: 80px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 255, 255);
+    margin-bottom: 20px;
+    font-family: "space grotesk";
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.box p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 70px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #3778FA;
+    border-radius: 5%;
+}
+
+.TituloFooter{
+    font-family: "space grotesk";
+    color: #ffffff;
+    font-size: 50px;
+}

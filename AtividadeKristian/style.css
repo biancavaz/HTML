@@ -136,5 +136,164 @@ footer{
 .TituloFooter{
     font-family: "space grotesk";
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
+    margin-right: 70px;
+    margin-right: 80px;
 }
+
+.textoAbaixo{
+    margin-top: 20px;
+    color: #ffffff ;
+    line-height: 25px;
+    font-family: "space grotesk";
+    padding-right: 60px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.LerMais{
+    background-color: #ffffff;
+    font-family: "space grotesk";
+    width: 8rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 30px;
+
+}
+
+.linha{
+    background-color: #ffffff;
+    padding: 1px;
+    margin-top: 60px;
+}
+
+.container5{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-family: "space grotesk";
+}
+
+.tituloFooter{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.textinho{
+    margin-top: 20px;
+    color: #ffffff ;
+    font-family: "space grotesk";
+    padding-right: 80px;
+    font-weight: 200;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.container6 {
+    font-family: "space grotesk";
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 300px;
+    flex: 2;
+}
+
+.container51{
+    flex: 1;
+}
+
+.container7{
+    margin-top: 70px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.container71{
+    font-family: "space grotesk";
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.container72{
+    font-family: "space grotesk";
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.container73{
+    font-family: "space grotesk";
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.container8{
+    margin-top: 70px;
+    color: #ffffff;
+}
+
+.container81{
+    display: flex;
+    justify-content: center;
+    font-family: "space grotesk";
+    font-weight: 300px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container82{
+    text-align: center;
+    font-family: "space grotesk";
+    font-weight: 300px;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+a{
+    color: #7fe22e;
+}
+
+.container83{
+    display: flex;
+    justify-content: center;
+    font-family: "space grotesk";
+    font-size: 14px;
+    margin-bottom: 5px;   
+}
+
+@media (min-width: 992px) {
+
+    .container {        
+        flex-direction: row;
+        background-color:  rgb(220, 205, 235);
+    }
+    
+    .sidebar {
+        flex: 1;
+    } 
+
+    .sidebar .box {
+        flex: 1 1 55%;  
+    }
+
+    .main-content {
+        flex: 3;
+    } 
+
+    .container11{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+

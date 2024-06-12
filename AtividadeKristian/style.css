@@ -5,6 +5,9 @@
 }
 
 /* header  */
+.display li{
+    align-content: center;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -21,6 +24,16 @@
     padding-top: 15px;
     padding-right: 10px;
     width: 40px;
+}
+
+nav{
+    font-family: "space grotesk";
+    font-size: 8px;
+    display: none;
+}
+
+.containerdisplay{
+    display: none;
 }
 
 .textoInicial {
@@ -53,10 +66,10 @@
     display: flex;
     justify-content: center;
     background-color: black;
-
 }
 
 .container3 img {
+    width: 25vw;
     margin-top: -50px;
     padding-bottom: -20px;
 }
@@ -76,6 +89,11 @@
     margin-top: 40px;
     margin-bottom: 10px;
 }
+
+.video img{
+    width: 90vw;
+}
+
 .sessão3{
     display: flex;
     justify-content: center;
@@ -98,6 +116,10 @@
     padding: 35px;
 }
 
+.imgPC{
+    display: none;
+}
+
 .container4 { 
     background-color: rgb(238, 238, 238);  
     margin-left: 10px;
@@ -105,6 +127,7 @@
     margin-top: 40px;
     border-radius: 4%;
     margin-bottom: 80px;
+    
 }
 
 .box{
@@ -275,7 +298,6 @@ a{
 
     .container {        
         flex-direction: row;
-        background-color:  rgb(220, 205, 235);
     }
     
     .sidebar {
@@ -289,11 +311,117 @@ a{
     .main-content {
         flex: 3;
     } 
-
     .container11{
         display: flex;
         flex-direction: row;
     }
 
+    .container {
+        flex-direction: row;
+    }
+    
+    .titulo{
+        color: rgb(47, 114, 238);
+        padding: 20px;
+        padding-left: 70px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    
+    .menu{
+        display: contents;
+        text-decoration: none;
+    }
+    
+    nav{
+        font-family: "space grotesk";
+        font-size: 20px;
+        display: contents;
+    }
+
+    .containerdisplay{
+        display: flex;
+        justify-content: center;
+        font-family: "space grotesk";
+    }
+
+    .display{
+        display: flex;
+        justify-content:center;
+        gap: 30px;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .lado{
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        padding-left: 5px;
+        font-size: 8px;
+    }
+    .lado h2{
+        font-weight: 400;
+        align-content: center;
+    }
+
+    .botao{
+        padding: 12px;
+        padding-inline: 30px;
+        background-color: #3778FA;
+        color: #ffffff;
+        border-radius: 30px;
+        margin-right: 70px;
+        
+        text-align: center;
+    }
+
+    li {
+       list-style-type: none;
+    }
+
+    .container3 {
+        margin-top: 140px;
+        margin-left: 60px;
+        margin-right: 60px;
+        border-radius: 40px;
+    }
+
+    .container3 img {
+        margin-top: -90px;
+    }
+    .textoInicial {
+        font-size: 70px;
+        padding-right: 200px;
+        padding-left: 200px;
+        margin-top: 20px;
+    }
+    
+    .introducao{
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .textoSecundario{
+        margin-top: 140px;
+        font-size: 60px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .texto3{
+        margin-top: 140px;
+        font-size: 60px;
+        margin-inline: auto;
+        width: 60vw;
+    }
+
+    .imagem3 {
+        display: none;
+    }
+
+    .imgPC{
+        display: flex;
+        width: 250px;
+    }
 }
 

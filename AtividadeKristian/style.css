@@ -430,7 +430,6 @@ a{
         margin-right: 80px;
         padding-top: 60px ;
         border-radius: 30px;
-        padding-bottom: 20PX;
         display: flex;
     }
 
@@ -447,11 +446,57 @@ a{
 
     .containerf2{
         flex: 3;
+
     }
     .containerf{
         display: flex;
         flex-direction: row;
     }
 
+    .container9{
+        max-width: 490px;
+        padding-right: 20px;
+    }
+
+    .container7{
+        padding-left: 70px;
+    }
+    .container71{
+        font-size: 10px;
+    }
+
+    .container72{
+        padding-left: 70px;
+        font-size: 10px;
+    }
+
+    .container73{
+        padding-left: 70px;
+        font-size: 10px;
+    }
+    .textinho{
+        font-size: 12px;
+        padding-right: 130px;
+    }
+
+    .container6{
+        font-size: 10px;
+        align-items: center;
+
+    }
+
+    .container8{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container8 p{
+        font-size: 10px;
+    }
+
+    .textoAbaixo{
+      margin-right: -5px;
+    }
 }
 

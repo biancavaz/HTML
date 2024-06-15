@@ -316,10 +316,6 @@ a{
         flex-direction: row;
     }
 
-    .container {
-        flex-direction: row;
-    }
-    
     .titulo{
         color: rgb(47, 114, 238);
         padding: 20px;
@@ -346,7 +342,7 @@ a{
 
     .display{
         display: flex;
-        justify-content:center;
+        justify-content:space-between;
         gap: 30px;
         padding: 20px;
         font-size: 12px;
@@ -421,7 +417,7 @@ a{
 
     .imgPC{
         display: flex;
-        width: 250px;
+        width: 30vw;
         padding-left: 70px;
     }
 
@@ -430,6 +426,7 @@ a{
         margin-right: 80px;
         padding-top: 60px ;
         border-radius: 30px;
+        justify-content: center;
         display: flex;
     }
 
@@ -444,6 +441,21 @@ a{
         max-width: 370px;
     }
 
+    .box{
+        width: 45vw;
+        padding: 30px;
+        font-size: 1.2vw;
+    }
+    
+    .box p{
+        max-width: 15vw;
+        margin-top: 1vw;
+    }
+
+    .container42{
+        align-content: center;
+    }
+
     .containerf2{
         flex: 3;
 
@@ -453,30 +465,36 @@ a{
         flex-direction: row;
     }
 
-    .container9{
-        max-width: 490px;
+    .container5{
+        max-width: 38vw;
         padding-right: 20px;
+        flex: 2;
+    }
+
+    .conatiner10{
+        flex: 1;
     }
 
     .container7{
-        padding-left: 70px;
+        padding-right: 5vw;
     }
+
     .container71{
+        padding-left: 10vw;
         font-size: 10px;
     }
 
     .container72{
-        padding-left: 70px;
         font-size: 10px;
     }
 
     .container73{
-        padding-left: 70px;
         font-size: 10px;
     }
     .textinho{
         font-size: 12px;
-        padding-right: 130px;
+        padding-right: 15vw;
+       
     }
 
     .container6{
